@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlas Company</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+
+
 </head>
 <body>
     <header>
         <img src="logo.png" alt="Atlas Company Logo" class="logo">
+        <main>
+            <form action="/search" method="get">
+                <input type="text" name="query" placeholder="Buscar produto...">
+                <button type="submit"><i class="icon icon-search"></i></button>
+            </form>
+        </main>
         <nav>
             <ul>
-                <li><a href="./views/index.html">Home</a></li>
                 <li><a href="./views/product.html">Produtos</a></li>
-                <li><a href="./views/cart.html">Carrinho</a></li>
-                <li><a href="https://www.instagram.com/atlascompanyc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a></li>
+                <li><a href="./views/cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="https://www.instagram.com/atlascompanyc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Bem-vindo à Atlas Company</h1>
-        <p>A melhor loja de roupas gringas.</p>
-    </main>
     <footer>
         <p>&copy; 2024 Atlas Company</p>
     </footer>
