@@ -24,14 +24,47 @@
 
         <nav>
             <ul>
-                <li><a href="./views/product.html">Produtos</a></li>
-                <li><a href="./views/cart.html"><i class="fas fa-shopping-cart"></i></a></li>
-                <li><a href="https://www.instagram.com/atlascompanyc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a></li>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Produtos</button>
+                    <div class="dropdown-content">
+                        <div class="nested-dropdown">
+                            <a href="#">Tênis</a>
+                            <div class="nested-dropdown-content">
+                                <a href="#">Nike</a>
+                                <a href="#">Bape</a>
+                                <a href="#">Adidas</a>
+                                <a href="#">Tesla</a>
+                            </div>
+                        </div>
+                        <div class="nested-dropdown">
+                            <a href="#">Moletons</a>
+                            <div class="nested-dropdown-content">
+                                <a href="#">Glo-Gang</a>
+                                <a href="#">Bape</a>
+                                <a href="#">Nike</a>
+                                <a href="#">corteiz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <li>
+                        <a id="cart" href="./views/cart.html"><i class="fas fa-shopping-cart"></i>
+                            <span class="cart-badge">1</span>
+                        </a>
+                        
+                    </li>
+                <!-- <li><a href="https://www.instagram.com/atlascompanyc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a></li> -->
+
             </ul>
         </nav>
   
     </header>
 
+    <div class="frete-bar">
+        Frete grátis para todo Brasil!
+    </div>
     
     <div class="swiper-container">
         <div class="swiper-wrapper">
