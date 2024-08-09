@@ -141,12 +141,14 @@ input[type="text"]::placeholder {
 
 #cart i {
     font-size: inherit; 
+    margin-left: 10px;
+    margin-right: 16px;
 }
 
 .cart-badge {
     position: absolute;
     top: -14px;
-    right: -17px;
+    right: -2px;
     background-color: #46015f;
     color: white;
     border-radius: 50%;
@@ -176,7 +178,7 @@ nav ul li {
 
 .dropbtn {
     background-color: #50016c;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 16px;
     font-size: 16px;
     border-radius: 15px;
