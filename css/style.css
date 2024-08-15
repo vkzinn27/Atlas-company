@@ -272,3 +272,59 @@ nav ul li {
     font-size: 20px
 }
 
+.produtos_vendidos {
+    text-align: center;
+    padding: 50px 0;
+    margin-top: -20px;
+}
+
+.produtos_vendidos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1em;
+    color: #333;
+}
+
+#footer.show {
+    bottom: 0; 
+}
+
+.divisoria-bar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 112px;
+}
+
