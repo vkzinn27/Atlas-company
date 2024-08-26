@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.logo{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.header {
+    background-color: #620084;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    height: 83px;
+    margin-bottom: 75px  ;
+}
+
+/* classes para trocar o display */
+.display-block{
+    display: inline-block;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+.container-main{
+    background-color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    height: 720px;
+    box-shadow: 3px 3px 3px rgb(206, 206, 206);
+
+}
+
+.register-side{
+    background-color: #620084;
+    width: 35%;
+    height: 100%;
+}
+
+.form-register-header{
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+/* Estiliza tipos especificos de input */
+input 
+[type="email"],
+[type="password"],
+[type="submit"]{
+    display: block;
+    color: #484d50;
+}
+
+form a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.input-style{
+    padding: 20px;
+    width: 300px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.container-form-register{
+    margin: 50px 50px;
+}
+
+.button-style{
+    padding: 20px;
+    width: 300px;
+    margin: 60px 0px;
+    background-color: #46015f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-style:hover{
+    background-color: #4F474D;
+}
+
+.container-main{
+    display: flex;
+
+}
+
+.login-side{
+    width: 60%;
+    margin: 0 auto;
+  
+}
+
+.login-title{
+    margin: 100px 0px;
+    text-align: center;
+    padding: 40px 0px;
+    color: #620084;
+
+}
+
+.login-title h1{
+    font-size: 40px;
+}
+
+.login-title h2{
+    margin-top: 45px;
+    font-size: 28px;
+}
+
+.login-title p{
+    margin: 50px 0;
+}
+
+#login-side-input{
+    border: 1px solid  #8b868a;
+}
+
+.button-register-side{
+    padding: 20px;
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 25px;
+    background-color: #46015f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
