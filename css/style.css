@@ -31,7 +31,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
@@ -337,3 +336,10 @@ nav ul li {
     color: transparent;
 }
 
+.my-confirm-button {
+    display: inline-block;
+    background-color: #a5a5a5;
+    border: solid 2px #6b6b6b;
+    border-radius: 18px;
+    color: black;
+  }
